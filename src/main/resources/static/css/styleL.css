@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+html, body{
+    background: linear-gradient(90deg, #400101 22.72%, #5F0E14 77.3%, #70151F 104.24%, #952535 110.32%);
+    height: 100vh;
+    width: 100vw;
+}
+header{
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+    background: none; /* Remove a cor de fundo */
+    border: none; /* Remove a borda */
+    padding: 0; /* Remove o padding */
+    font: inherit; /* Herda a fonte do elemento pai */
+    color: inherit; /* Herda a cor do texto do elemento pai */
+    cursor: pointer; /* Adiciona o cursor de pointer */
+    outline: none; /* Remove o outline */
+    text-decoration: none; /* Remove qualquer decoração de texto */
+}
+
+#menu{
+
+}
+
+#loginrectangle{
+    min-width: 340px;
+    width: 40.5%;
+    max-width: 1900px;
+    height: 581px;
+    background: #D9D9D9;
+    border-radius: 4px;
+}
+
+#login{
+    display: flex;
+    margin: auto;
+    padding: 7% 0 0 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Khula';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+}
+
+#divmid{
+    margin: 15% auto 0 auto;
+}
+
+#divmid2{
+    margin: 8% auto 0 auto;
+}
+
+.nameinput{
+    font-family: 'Khula';
+    font-size: 0.9rem;
+    display: flex;
+    margin: 0 auto;
+    width: 82%;
+    max-width: 380px;
+}
+
+input:focus {   /*input*/
+    outline: none;
+}  
+
+#rectangleuser>form>input{
+    display: flex;
+    margin: 0 auto;
+    width: 82%;
+    max-width: 380px;
+    height: 50px;
+    background: linear-gradient(355.01deg, #020126 -367.09%, #9E969A -82.84%, #F2E6D8 185.24%);
+    border: none;
+    border-radius: 8px;
+    padding: 0 1.5% 0 1.5%;
+}
+#rectanglepass>form>input{
+    display: flex;
+    margin: 0 auto;
+    width: 82%;
+    max-width: 380px;
+    height: 50px;
+    background: linear-gradient(355.01deg, #020126 -367.09%, #9E969A -82.84%, #F2E6D8 185.24%);
+    border: none;
+    border-radius: 8px;
+    padding: 0 1.5% 0 1.5%;
+}
+
+#buttonEnter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15% auto 0 auto;
+    width: 138px;
+    height: 43px;
+    background: #40010D;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Khula';
+    transition: font-size 0.5s
+}
+#buttonEnter:hover{
+    font-size: 1.15rem;
+    background-color: #952535;
+}
+
+#linkHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4% 0 0 0;
+    text-decoration: none;
+    font-family: 'Khula';
+    font-size: 0.88rem;
+}
+#linkHome:hover{
+    text-decoration: underline;
+}
